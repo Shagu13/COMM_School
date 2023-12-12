@@ -10,6 +10,7 @@ namespace Homework_1
             Console.WriteLine("Shalva Adeishvili");
             Console.WriteLine(Console.ReadLine());
             Console.WriteLine("just to type the input");
+            Console.WriteLine("Another modified text for branch");
         }
     }
 }
