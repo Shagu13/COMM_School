@@ -146,6 +146,8 @@ namespace Homework_6
             Console.WriteLine("[{0}]", string.Join(", ", randArray));
 
             #endregion
+
+
         }
     }
 }
