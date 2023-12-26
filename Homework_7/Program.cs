@@ -60,14 +60,14 @@ namespace Homework_7
             #endregion
 
             #region Task3
-            //int won, draw, lost ;
+            //int won, draw, lost;
             //Console.WriteLine("Amount of games won");
             //won = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Amount of games that were draw ");
             //draw = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("Amount of games lost ");
             //lost = Convert.ToInt32(Console.ReadLine());
-            //int finalScore = won * 3 + draw * 1 + 0 * lost;
+            //int finalScore = won * 2 + draw * 1 + 0 * lost;
             //Console.WriteLine(finalScore);
 
             #endregion
@@ -81,26 +81,29 @@ namespace Homework_7
             b. ოვერთაიმის შემთხვევაში საათში იღებს დამატებით 5$
             c. შაბათ/კვირას მუშაობის შემთხვევაში იღებს გაორმაგებულ ხელფასს
             */
+            //const int normalSalary = 10;
+            //const int weekendSalary = 20;
+            //const int overTimeSalary = 5;
             //int amountOfSalary = 0;
             //int numberOfHoursWorked;
             //string[] weekDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-            //for (int i = 0; i <weekDays.Length; i++)
+            //for (int i = 0; i < weekDays.Length; i++)
             //{
-            //    Console.WriteLine($"Number of hours worked on { weekDays[i]}");
+            //    Console.WriteLine($"Number of hours worked on {weekDays[i]}");
             //    numberOfHoursWorked = Convert.ToInt32(Console.ReadLine());
-            //    if (weekDays[i] == "Saturday" || weekDays[i] == "Sunday") 
+            //    if (weekDays[i] == "Saturday" || weekDays[i] == "Sunday")
             //    {
-            //        amountOfSalary += 20 * numberOfHoursWorked;
+            //        amountOfSalary += weekendSalary * numberOfHoursWorked;
             //    }
             //    else
-            //    {   
-            //        if (numberOfHoursWorked > 8 ) 
+            //    {
+            //        if (numberOfHoursWorked > 8)
             //        {
-            //            amountOfSalary += 10 * 8 + ((numberOfHoursWorked - 8) * 5);
+            //            amountOfSalary += normalSalary * 8 + ((numberOfHoursWorked - 8) * overTimeSalary);
             //        }
             //        else
             //        {
-            //            amountOfSalary += 10 * numberOfHoursWorked;
+            //            amountOfSalary += normalSalary * numberOfHoursWorked;
             //        }
 
             //    }
@@ -118,29 +121,29 @@ namespace Homework_7
             დღეების რაოდენობა როდესაც მან შედეგი გააუმჯობესა.
             */
 
-            //int resultOfBetterExercise = 0;
-            //Console.WriteLine("Please enter the number of days an athlete has spent on workout");
-            //int arrayRange1 = Convert.ToInt32(Console.ReadLine());
-            //int[] exerciseArray = new int[arrayRange1];
-            //Random random = new Random();
+            int resultOfBetterExercise = 0;
+            Console.WriteLine("Please enter the number of days an athlete has spent on workout");
+            int arrayRange1 = Convert.ToInt32(Console.ReadLine());
+            int[] exerciseArray = new int[arrayRange1];
+            Random random = new Random();
 
-            //for (int i = 0; i < exerciseArray.Length; i++)
-            //{
-            //    exerciseArray[i] = random.Next(1, 7);
-            //    Console.WriteLine(exerciseArray[i]);
-            //}
+            for (int i = 0; i < exerciseArray.Length; i++)
+            {
+                exerciseArray[i] = random.Next(1, 7);
+                Console.WriteLine(exerciseArray[i]);
+            }
 
-            //Array.Sort(exerciseArray);
-            //Console.WriteLine("[{0}]", string.Join(", ", exerciseArray));
+            Array.Sort(exerciseArray);
+            Console.WriteLine("[{0}]", string.Join(", ", exerciseArray));
 
-            //for (int i = 1; i < exerciseArray.Length; i++)
-            //{
-            //    if (exerciseArray[i - 1] < exerciseArray[i])
-            //    {
-            //        resultOfBetterExercise += 1;
-            //    }
-            //}
-            //Console.WriteLine($"Number of days with better exercises: {resultOfBetterExercise}");
+            for (int i = 1; i < exerciseArray.Length; i++)
+            {
+                if (exerciseArray[i - 1] < exerciseArray[i])
+                {
+                    resultOfBetterExercise += 1;
+                }
+            }
+            Console.WriteLine($"Number of days with better exercises: {resultOfBetterExercise}");
 
             #endregion
 

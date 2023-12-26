@@ -1,0 +1,15 @@
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\bin\Debug\net5.0\Homework_8.exe
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\bin\Debug\net5.0\Homework_8.deps.json
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\bin\Debug\net5.0\Homework_8.runtimeconfig.json
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\bin\Debug\net5.0\Homework_8.runtimeconfig.dev.json
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\bin\Debug\net5.0\Homework_8.dll
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\bin\Debug\net5.0\Homework_8.pdb
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.AssemblyInfo.cs
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.dll
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\refint\Homework_8.dll
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.pdb
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\Homework_8.genruntimeconfig.cache
+C:\Users\A\Desktop\Programming\COMM_School\Homework_1\Homework_8\obj\Debug\net5.0\ref\Homework_8.dll
