@@ -78,11 +78,11 @@ namespace Homework_8
             /*რეკურსია
             დაწერეთ ფუნქცია რომელიც დაბეჭდავს რიცხვში შემავალ ყოველ სიმბოლოს .*/
 
-            //Console.Write("Enter a number: ");
-            //string input = Console.ReadLine();
+            Console.Write("Enter a number: ");
+            string input = Console.ReadLine();
 
-            //Console.Write("Separated digits: ");
-            //SeparateDigits(input, 0);
+            Console.Write("Separated digits: ");
+            SeparateDigits(input, 0);
 
             #endregion
 
