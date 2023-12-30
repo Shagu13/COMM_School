@@ -25,10 +25,6 @@ namespace Homework_9
             {
                 return salary * 0.05;
             }
-            // Both Codes above and bellow do the same thing
-            double taxPercentage = IsLocal ? 18 : 5; // if isLocal - true uses 18, elseif - false uses 5
-            double taxAmount = (taxPercentage / 100) * salary;
-            return taxAmount;
 
         }
     }
