@@ -10,10 +10,10 @@ namespace Homework_9
     {
         public bool IsLocal { get; set; }
 
-        public Company(bool isLocal)
-        {
-            this.IsLocal = isLocal;
-        }
+        //public Company(bool isLocal)
+        //{
+        //    this.IsLocal = isLocal;
+        //}
 
         public double CalculateTax(double salary)
         {

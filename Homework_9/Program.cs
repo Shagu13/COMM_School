@@ -14,8 +14,8 @@ class Program
         {
             isLocal = false;
         }
-        Company company = new Company(isLocal);
-
+        Company company = new Company(); 
+        company.IsLocal = isLocal;
         string firstName, lastName, position, weeklyHours;
         int age;
         GetParameters(out firstName, out lastName, out age, out position, out weeklyHours);
@@ -27,6 +27,8 @@ class Program
         double tax = company.CalculateTax(salary);
 
         Console.WriteLine($"{employee.FirstName} {employee.LastName}'s weekly salary : {salary}\nTax Paid: {tax}");
+
+
 
 
     }
@@ -46,4 +48,5 @@ class Program
         weeklyHours = Console.ReadLine();
 
     }
+
 }

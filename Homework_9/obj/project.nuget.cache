@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pHoznGpOgIjPXBK5eV4Wf3pWnJE8MF1YeanczGmBeRNLn/i3SYzB1G+yNSK65NO0u79km2cp5o52nMjpnSuGZg==",
+  "dgSpecHash": "Law1m4gXNc/0K5EPTayaSTxHC27zlzEKeS9H0xiDIf6PLtPh6bulQh8biltRhgUfMQAkF5DXx/eAzMtJDdTG1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\A\\Desktop\\Programming\\COMM_School\\Homework_1\\Homework_9\\Homework_9.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\A\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
   "logs": []
 }
